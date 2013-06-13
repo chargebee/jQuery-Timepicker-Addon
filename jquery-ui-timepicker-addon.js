@@ -1055,7 +1055,7 @@
             },
             spinner: {
                 create: function(tp_inst, obj, unit, val, min, max, step){
-                    $('<input class="ui-timepicker-input" value="'+val+'" maxlength="2" style="width:50%">')
+                    $('<input class="ui-timepicker-spinner" value="'+val+'" maxlength="2">')
                     .appendTo(obj)
                     .spinner({
                         numberFormat: "d2", 
